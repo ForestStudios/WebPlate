@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacts-WebPlate</title>
+    <meta name="description" content="Learn HTML, CSS, Bootstrap, JavaScript">
+    <meta name="keywords" content="Learn Web">
+    <meta name="author" content="Forest Studio">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icons/CodeLogo.png">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">
+    <img src="images/icons/CodeLogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    <i class="fa-solid fa-table-layout">WebPlate</i>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="fa-solid fa-house-chimney">Home</i><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"><i class="fa-solid fa-user-group">About Us</i></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-code">Coding Languages</i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">HTML N/A</a>
+          <a class="dropdown-item" href="#">CSS N/A</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">JavaScript N/A</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contacts.html"><i class="fa-solid fa-address-book">Contacts</i></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+<div class="jumbotron">
+  <h1 class="display-4">Contact Us</h1>
+  <p class="lead">If you wanna work with us you can contact us. there are lots of ways to contact us.</p>
+  <hr class="my-4">
+  <p>Sign Up Today To Start Learning</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Sign Up</a>
+  </p>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">example@gmail.com</span>
+  </div>
+</div>
+<div class="form-group">
+    
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h2 class="basics">Ways To Contact Us</h2>
+<section>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card border-info aligntext" style="width: 18rem;">
+  <i class="fa-solid fa-mobile bigi"></i>
+  <div class="card-body">
+    <h5 class="card-title">Call : +1234-567-890</h5>
+    <p class="card-text">Monday-Friday (10am-18pm)</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card border-info aligntext" style="width: 18rem;">
+  <i class="fa-solid fa-envelope bigi"></i>
+  <div class="card-body">
+    <h5 class="card-title">Email : forest3@gmail.com</h5>
+    <p class="card-text">Web: www.webplate.com</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card border-info aligntext" style="width: 18rem;">
+  <i class="fa-solid fa-location-dot bigi"></i>
+  <div class="card-body">
+    <h5 class="card-title">Location : Tbilisi</h5>
+    <p class="card-text">23 house/3 Road</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</section>
+<hr>
+<footer>
+  <div class="footer-content">
+     <h3>WebPlate By Forest Studio</h3>
+        <p>WebPlate is a website Where you can learn HTML, CSS, Bootstrap, & JavaScript</p>
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+      <div class="footer-bottom">
+    <p>copyright &copy; <a href="#">Forest Studio</a>  </p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
